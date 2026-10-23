@@ -1,0 +1,235 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="theme-color" content="#fff3d1">
+  <meta name="description" content="مساحتي الشخصية، عالمي الصغير الذي يجمع أفكاري واهتماماتي وكتاباتي.">
+
+  <title>مساحتي الشخصية ☀️</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- القائمة العلوية -->
+  <header>
+    <a class="logo" href="#home">My Sunshine ☀️</a>
+
+    <nav>
+      <a href="#home">الرئيسية</a>
+      <a href="#about">من أنا؟</a>
+      <a href="#interests">اهتماماتي</a>
+      <a href="#thoughts">أفكاري</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- الواجهة الرئيسية -->
+    <section class="hero" id="home">
+
+      <p class="tag">☁️ أهلًا بك في عالمي الصغير ☁️</p>
+
+      <h1>
+        مرحبًا، أنا
+        <span>كوثر</span>
+        ☀️
+      </h1>
+
+      <p class="intro">
+        مثل الشمس، أحاول أن أضيء عالمي بالمعرفة،
+        وأكتشف في كل يوم شيئًا جديدًا.
+        هذه مساحتي الخاصة لأشارك أفكاري واهتماماتي.
+      </p>
+
+      <a class="button" href="#about">
+        اكتشف عالمي ♡
+      </a>
+
+      <p class="tag">🌼 كن لطيفًا مع نفسك 🌼</p>
+
+    </section>
+
+    <!-- من أنا -->
+    <section id="about" class="section">
+
+      <h2>🌻 من أنا؟</h2>
+
+      <p>
+        أنا كوثر، أحب التعلم والتفكير واكتشاف الأشياء
+        من حولي. أستمتع بالأسئلة العميقة، وأؤمن أن
+        كل يوم يمنحنا فرصة لفهم أنفسنا والعالم أكثر.
+      </p>
+
+    </section>
+
+    <!-- الاهتمامات -->
+    <section id="interests" class="section">
+
+      <h2>🍯 الأشياء التي أحبها</h2>
+
+      <p>
+        لكل شخص عالمه الخاص، وهذه بعض الأشياء
+        التي تجعل عالمي مميزًا.
+      </p>
+
+      <div class="cards">
+
+        <article class="card">
+          <h3>🧠 علم النفس</h3>
+          <p>
+            اكتشاف أسرار العقل والتفكير والذاكرة
+            وفهم السلوك البشري.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>💻 البرمجة</h3>
+          <p>
+            تعلم كتابة الأكواد وصناعة مشاريعي
+            الصغيرة خطوة بخطوة.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>✍️ الكتابة</h3>
+          <p>
+            تدوين الأفكار والأسئلة والتأملات
+            التي تستحق أن تبقى.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>🌙 الفلسفة</h3>
+          <p>
+            طرح الأسئلة والبحث عن المعنى
+            والنظر إلى الحياة من زوايا مختلفة.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- الأفكار -->
+    <section id="thoughts" class="section">
+
+      <h2>🌅 زاوية أفكاري</h2>
+
+      <blockquote>
+        «كلما اقتربت من الإجابة، تغيّر السؤال.»
+      </blockquote>
+
+      <p>
+        أحب الأسئلة التي تجعلني أفكر بطريقة مختلفة،
+        لأن المعرفة ليست مجرد الوصول إلى الإجابة،
+        بل الاستمتاع برحلة البحث أيضًا.
+      </p>
+
+    </section>
+
+    <!-- رسالة ختامية -->
+    <section class="section">
+
+      <h2>💛 رسالة صغيرة لك</h2>
+
+      <p>
+        تذكّر أن نموك لا يحتاج إلى الكمال،
+        وأن الخطوات الصغيرة قد تقودك إلى أماكن جميلة.
+      </p>
+
+    </section>
+
+  </main>
+
+<!-- قسم يومياتي -->
+<section id="diary" class="section diary-section">
+  <h2>🌷 يومياتي الصغيرة</h2>
+  <p>مساحة أكتب فيها عن يومي، مشاعري، والأشياء الجميلة التي أتعلمها.</p>
+
+  <div class="diary-card">
+    <label for="diary-date">📅 تاريخ اليوم</label>
+    <input type="date" id="diary-date">
+
+    <label for="diary-title">عنوان يومي</label>
+    <input type="text" id="diary-title"
+      placeholder="مثلاً: يوم مليء بالأفكار...">
+
+    <label for="diary-text">ماذا أريد أن أكتب؟</label>
+    <textarea id="diary-text" rows="5"
+      placeholder="اكتبي أفكارك هنا يا كوثر..."></textarea>
+
+    <button type="button" class="sun-button" id="save-diary">
+      احفظي يومياتي ♡
+    </button>
+
+    <p id="diary-message" class="form-message" aria-live="polite"></p>
+  </div>
+</section>
+
+<!-- قسم اقتباساتي -->
+<section id="quotes" class="section quotes-section">
+  <h2>💌 اقتباساتي المفضلة</h2>
+  <p>كلمات صغيرة تترك أثرًا كبيرًا في قلبي.</p>
+
+  <blockquote class="quote-card">
+    «كلما اقتربت من الإجابة، تغيّر السؤال.»
+  </blockquote>
+
+  <blockquote class="quote-card">
+    «ليس عليك أن تعرف كل شيء اليوم؛ يكفي أن تتعلم شيئًا جديدًا.»
+  </blockquote>
+
+  <div class="diary-card">
+    <label for="quote-text">أضيفي اقتباسك الخاص</label>
+    <textarea id="quote-text" rows="3"
+      placeholder="اكتبي العبارة التي تحبينها..."></textarea>
+
+    <button type="button" class="sun-button" id="add-quote">
+      أضيفي اقتباسي ✨
+    </button>
+
+    <div id="my-quotes" class="my-quotes"></div>
+  </div>
+</section>
+
+  <!-- أسفل الصفحة -->
+  <footer>
+    <p>صُنع بحب وأشعة شمس ☀️♡</p>
+    <p>© 2026 مساحتي الشخصية</p>
+  </footer>
+
+<script>
+function saveDiary() {
+  const text = document.getElementById("diaryText").value;
+  if (!text.trim()) {
+    document.getElementById("diaryMessage").textContent =
+      "اكتبي شيئًا أولًا 🌷";
+    return;
+  }
+
+  localStorage.setItem("myDiary", text);
+  document.getElementById("diaryMessage").textContent =
+    "تم حفظ يومياتك 💛";
+}
+
+function addQuote() {
+  const input = document.getElementById("quoteText");
+  const quote = input.value.trim();
+
+  if (!quote) return;
+
+  const item = document.createElement("blockquote");
+  item.textContent = quote;
+  document.getElementById("quoteList").appendChild(item);
+
+  input.value = "";
+}
+</script>
+
+</body>
+</html>
